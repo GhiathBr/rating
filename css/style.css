@@ -1,0 +1,118 @@
+:root{
+    --MWhite: hsl(0, 0%, 100%);
+    --Light_Grey: hsl(217, 12%, 63%);
+    --Medium_Grey: hsl(216, 12%, 54%);
+    --Dark_Blue: hsl(213, 19%, 18%);
+    --Very_Dark_Blue: hsl(216, 12%, 8%);
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--MWhite);
+    background-color: var(--Very_Dark_Blue);
+}
+#ico{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--Medium_Grey);
+    margin-top: 10px;
+}
+#star{
+margin-top: 20%;
+width: 50%;
+height: 50%;
+}
+#container{
+    margin-top: 10%;
+padding: 15px;
+display: block;
+box-sizing: border-box;
+width: 30%;
+height: 400px;
+background-color: var(--Dark_Blue);
+border-radius: 25px;
+
+
+}
+#rate{
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 10%;
+
+}
+.rate{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto 2%;
+    cursor: pointer;
+    background-color: var(--Medium_Grey);
+    outline: none;
+    border: none;
+    color: var(--Light_Grey);
+}
+
+input{
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-in-out;
+    width: 80%;
+    height: 40px;
+   margin-left: 10%;
+   margin-top: 5%;
+   border-radius: 25px;
+   font-size: 15px;
+   background-color: orange;
+   color: var(--MWhite);
+   
+
+}
+input:hover{
+    background-color: var(--MWhite);
+    color: orange;
+    font-size: 15px;
+}
+
+.rate:hover{
+    background-color: var(--Light_Grey);
+    color: var(--MWhite);
+}
+.rate:focus{
+    background-color: orange;
+    color: var(--MWhite);
+
+}
+p{
+    font-size: 15px;
+    width: 100%;
+    color: var(--Light_Grey);
+}
+#sel p{
+    width: 70%;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: var(--Medium_Grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+span{
+    margin: 0 5px;
+}
+#im
+{
+    margin: 20px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#te{
+    width: 74%;
+}
